@@ -1,0 +1,27 @@
+<Ui xmlns="http://www.blizzard.com/wow/ui/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.blizzard.com/wow/ui/
+..\FrameXML\UI.xsd">
+
+<Script file="Frames.lua" />
+
+<Frame name="ArcHUDFrame" parent="UIParent" frameStrata="LOW">
+	<Size x="50" y="350"/>
+	<Anchors>
+		<Anchor point="CENTER" relativeTo="WorldFrame" />
+	</Anchors>
+
+	<Frames>
+	
+		<Frame name="$parentTargetHUD" parentKey="TargetHUD">
+			<Size x="300" y="100"/>
+			<Anchors>
+				<Anchor point="TOP" relativeTo="$parent" relativePoint="BOTTOM">
+					<Offset><AbsDimension x="0" y="60"/></Offset>
+				</Anchor>
+			</Anchors>
+		</Frame>
+	
+	</Frames>
+
+</Frame>
+
+</Ui>

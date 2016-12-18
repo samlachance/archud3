@@ -1,0 +1,61 @@
+------------------------------------------------------------------------
+r166 | nyyr | 2016-08-18 20:46:20 +0000 (Thu, 18 Aug 2016) | 1 line
+Changed paths:
+   A /tags/v4.2.1 (from /trunk:165)
+
+Tagging as v4.2.1
+------------------------------------------------------------------------
+r165 | nyyr | 2016-08-18 20:45:45 +0000 (Thu, 18 Aug 2016) | 1 line
+Changed paths:
+   M /trunk/Core.lua
+   M /trunk/ModuleCore.lua
+
+Set Demon Hunter's Fury to fade when OOC
+------------------------------------------------------------------------
+r162 | nyyr | 2016-08-01 21:21:42 +0000 (Mon, 01 Aug 2016) | 1 line
+Changed paths:
+   M /trunk/Locales/Locales.xml
+   A /trunk/Locales/zhCN.lua
+
+Added support for language zhCN (thanks to yuningning520)
+------------------------------------------------------------------------
+r160 | nyyr | 2016-08-01 20:28:05 +0000 (Mon, 01 Aug 2016) | 4 lines
+Changed paths:
+   M /trunk/ComboPoints.lua
+   M /trunk/Locales/deDE.lua
+   M /trunk/Locales/enUS.lua
+   M /trunk/Locales/ruRU.lua
+   M /trunk/RingTemplate.lua
+   M /trunk/RingTemplate.xml
+   A /trunk/Rings/ArcaneCharges.lua
+   M /trunk/Rings/ComboPoints.lua
+   M /trunk/Rings/Rings.xml
+   A /trunk/Rings/Runes.lua
+   M /trunk/Rings/SoulShards.lua
+
+* Updated ComboPoints  (thanks to jasonolive)
+* Updated rings ComboPoints, SoulShards, Runes (thanks to jasonolive)
+* Added ring ArcaneCharges (thanks to jasonolive)
+* Cleanup in RingTemplate
+------------------------------------------------------------------------
+r159 | nyyr | 2016-08-01 19:37:08 +0000 (Mon, 01 Aug 2016) | 1 line
+Changed paths:
+   D /trunk/Rings/Runes.lua
+   A /trunk/Rings/RunesOld.lua (from /trunk/Rings/Runes.lua:158)
+
+Moved WoW6 Runes.lua to RunesOld.lua as archived example for multi-segment rings
+------------------------------------------------------------------------
+r157 | nyyr | 2016-07-30 10:44:37 +0000 (Sat, 30 Jul 2016) | 4 lines
+Changed paths:
+   M /trunk/ArcHUD3.toc
+   M /trunk/Core.lua
+   M /trunk/RingTemplate.lua
+   M /trunk/RingTemplate.xml
+   M /trunk/Rings/FocusHealth.lua
+   M /trunk/Rings/TargetHealth.lua
+
+Fixes for WoW 7:
+* Migrated to UnitIsTapDenied (TargetHealth, FocusHealth)
+* Migrated alpha animation to SetFromAlpha/SetToAlpha
+* Texture rendering fix (thanks to jasonolive)
+------------------------------------------------------------------------

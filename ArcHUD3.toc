@@ -1,0 +1,42 @@
+## Interface: 70000
+## Title: ArcHUD3
+## Notes: Smooth combat HUD based on ArcHUD2
+## Author: nyyr, Nenie
+## SavedVariables: ArcHUD3DB
+## Version: 4.0.0
+## X-Date: $Date: 2016-07-30 10:44:37 +0000 (Sat, 30 Jul 2016) $
+## X-Category: HUDs
+## X-Curse-Packaged-Version: v4.2.1
+## X-Curse-Project-Name: ArcHUD3
+## X-Curse-Project-ID: archud3
+## X-Curse-Repository-ID: wow/archud3/mainline
+
+# Libraries
+embeds.xml
+
+# Locales
+Locales\Locales.xml
+
+# Core addon
+Core.lua
+Frames.xml
+ComboPoints.lua
+Nameplates.lua
+BlizzardFrames.lua
+Utils.lua
+
+# Module core
+RingTemplate.xml
+ModuleCore.lua
+
+# Config
+Config.lua
+
+# Rings
+Rings\Rings.xml
+
+# Extensions
+#Extensions\Extensions.xml
+
+# Unit frames
+#UnitFrames\UnitFrames.xml
